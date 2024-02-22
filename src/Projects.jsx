@@ -1,51 +1,229 @@
-import img from "./image/preview.png";
+import overlay from "./image/preview-overlay.png";
+
+import neiHomepagePreview from "./image/preview-nei_homepage2.png";
+import neiMPPPreview from "./image/preview-neimpp.png";
+import neiTMIPPreview from "./image/preview-neitmip.jpg";
+import neiEncorePreview from "./image/preview-neiencore.png";
+import neiHomepageOverlay from "./image/preview-nei_homepage-overlay.png";
+import devonPreview from "./image/preview-devon2.png";
+import devonOverlay from "./image/preview-devon-hover.gif";
+import cozyKitchenPreview from "./image/preview-cozy_kitchen.png";
+import cozyKitchenOverlay from "./image/preview-cozy_kitchen-hover.gif";
+import blenderOverlay from "./image/preview-blender-overlay.png";
+import cozyBedroomPreview from "./image/preview-cozy_bedroom.png";
+import cozyBedroomOverlay from "./image/preview-cozy_bedroom-hover.gif";
+import perspectivePreview from "./image/preview-perspective.png";
+import deeperPreview from "./image/preview-divedeeper.png";
+import deeperOverlay from "./image/preview-divedeeper-hover.gif";
+import codestackPreview from "./image/preview-codestack.png";
+import codestackOverlay from "./image/preview-codestack-hover.gif";
+import linkedPreview from "./image/preview-linked.png";
+import linkedOverlay from "./image/preview-linked-hover.gif";
+import mangoPreview from "./image/preview-mango.png";
+import gradientPreview from "./image/preview-gradientdesk.png";
+import port21Preview from "./image/preview-2022.png";
+import port22Preview from "./image/preview-2023.png";
+import bwBrandPreview from "./image/preview-bw_branding.png";
+import bwSitePreview from "./image/preview-bw_site2.png";
+import bwSiteOverlay from "./image/preview-bw_site-hover.gif";
+import sagePreview from "./image/preview-sagesocial2.png";
+import sageOverlay from "./image/preview-sagesocial-hover.gif";
+import atdPreview from "./image/preview-atd.png";
+import atdOverlay from "./image/preview-atd-hover.gif";
+
 
 export const portfolio = [
     {
-        name: "Client 1",
-        title: "Client 1",
-        description: "Client Description",
-        tools: "HTML, CSS, Javascript",
-        preview: img,
-        source: "#",
-        category: ["all", "frontend", "ux-ui"]
+      name: "Sage Social",
+      title: "Sage Social",
+      description: "Squarespace website for a marketing agency",
+      tools: "Squarespace, CSS",
+      preview: sagePreview,
+      overlay: sageOverlay,
+      source: "/sage-social",
+      category: ["all", "websites", "squarespace"]
+    },
+    {
+      name: "BW Branding",
+      title: "Blue Window",
+      description: "Logo, branding, and social media feed for a boutique hotel",
+      tools: "Adobe Suite",
+      preview: bwBrandPreview,
+      overlay: overlay,
+      source: "#",
+      category: ["all", "branding"]
+    },
+    {
+      name: "Cozy Kitchen",
+      title: "3D Cozy Kitchen",
+      description: "Just for fun",
+      tools: "Blender 3d",
+      preview: cozyKitchenPreview,
+      overlay: cozyKitchenOverlay,
+      source: "#",
+      category: ["all", "3d"]
+    },
+      {
+        name: "Devon",
+        title: "Devon Donis",
+        description: "Portfolio for a videographer & filmmaker",
+        tools: "HTML, CSS",
+        preview: devonPreview,
+        overlay: devonOverlay,
+        source: "/devon-donis",
+        category: ["all", "websites", "frontend"]
       },
       {
-        name: "My favorite case",
-        title: "Client 2",
-        description: "Client Description",
-        tools: "HTML, CSS, Javascript",
-        preview: img,
-        source: "#",
-        category: ["all", "mobile", "ux-ui"]
+        name: "2022",
+        title: "2022 Portfolio",
+        description: "My 2022 portfolio featuring Lottie animations",
+        tools: "HTML, CSS, Javascript, Lottie",
+        preview: port22Preview,
+        overlay: overlay,
+        source: "/portfolio-2022",
+        category: ["all", "websites", "frontend"]
       },
       {
-        name: "A old job",
-        title: "Client 3",
-        description: "Client Description",
+        name: "NEI Homepage",
+        title: "Neuroscience Education Institute",
+        description: "Company’s homepage",
         tools: "HTML, CSS, Javascript",
-        preview: img,
-        source: "#",
-        category: ["all", "frontend"]
+        preview: neiHomepagePreview,
+        overlay: neiHomepageOverlay,
+        source: "/neuroscience-education-institute-home",
+        category: ["all", "websites", "frontend"]
       },
       {
-        name: "It is a really cool website",
-        title: "Client Title",
-        description: "Client Description",
-        tools: "HTML, CSS, Javascript",
-        preview: img,
+        name: "Cozy Bedroom",
+        title: "3d Cozy Bedroom",
+        description: "Just for fun",
+        tools: "Blender 3d",
+        preview: cozyBedroomPreview,
+        overlay: cozyBedroomOverlay,
         source: "#",
-        category: ["all", "frontend", "ux-ui"]
+        category: ["all", "3d"]
       },
       {
-        name: "Something more",
-        title: "Client Title",
-        description: "Client Description",
+        name: "NEI MPP",
+        title: "Neuroscience Education Institute MPP",
+        description: "Company’s Master Psychopharmacology Program",
         tools: "HTML, CSS, Javascript",
-        preview: img,
+        preview: neiMPPPreview,
+        overlay: neiHomepageOverlay,
+        source: "/neuroscience-education-institute-mpp",
+        category: ["all", "websites", "frontend"]
+      },
+      {
+        name: "NEI TMIP",
+        title: "Neuroscience Education Institute TMIP",
+        description: "Company’s blog, This Month in Psychopharmacology",
+        tools: "HTML, CSS, Javascript",
+        preview: neiTMIPPreview,
+        overlay: neiHomepageOverlay,
+        source: "/neuroscience-education-institute-tmip",
+        category: ["all", "websites", "frontend"]
+      },
+      {
+        name: "NEI Encore",
+        title: "Neuroscience Education Institute Encore",
+        description: "Company’s conference video archive, Encores",
+        tools: "HTML, CSS, Javascript",
+        preview: neiEncorePreview,
+        overlay: neiHomepageOverlay,
+        source: "/neuroscience-education-institute-encore",
+        category: ["all", "websites", "frontend"]
+      },
+
+      // {
+      //   name: "Perspective",
+      //   title: "Perspective",
+      //   description: "3D website hero concept/mockup",
+      //   tools: "React.js, Spline 3D",
+      //   preview: perspectivePreview,
+      //   overlay: overlay,
+      //   source: "/perspective",
+      //   category: ["all", "websites", "frontend", "3d"]
+      // },
+      {
+        name: "Dive Deeper",
+        title: "Dive Deeper",
+        description: "3D website hero concept/mockup",
+        tools: "React.js, Spline 3D",
+        preview: deeperPreview,
+        overlay: deeperOverlay,
+        source: "/dive-deeper",
+        category: ["all", "websites", "3d"]
+      },
+      {
+        name: "Code Stack",
+        title: "Code Stack",
+        description: "3D website hero concept/mockup",
+        tools: "React.js, Spline 3D",
+        preview: codestackPreview,
+        overlay: codestackOverlay,
+        source: "/code-stack",
+        category: ["all", "websites", "3d"]
+      },
+      {
+        name: "Linked",
+        title: "Linked",
+        description: "3D website hero concept/mockup",
+        tools: "React.js, Spline 3D",
+        preview: linkedPreview,
+        overlay: linkedOverlay,
+        source: "/linked",
+        category: ["all", "websites", "3d"]
+      },
+      // {
+      //   name: "Mango",
+      //   title: "Mango Mobile Development",
+      //   description: "3D website hero concept/mockup",
+      //   tools: "React.js, Spline 3D",
+      //   preview: mangoPreview,
+      //   overlay: overlay,
+      //   source: "/mango-mobile-development",
+      //   category: ["all", "websites", "frontend", "3d"]
+      // },
+      {
+        name: "2023",
+        title: "2023 Portfolio",
+        description: "My 2023 portfolio featuring my first Blender project",
+        tools: "HTML, CSS, Javascript, Blender 3D",
+        preview: gradientPreview,
+        overlay: blenderOverlay,
         source: "#",
-        category: ["all", "others"]
-      }
+        category: ["all", "websites", "frontend", "3d"]
+      },
+      {
+        name: "2021",
+        title: "2021 Portfolio",
+        description: "My 2021 portfolio made with React.js",
+        tools: "React.js",
+        preview: port21Preview,
+        overlay: overlay,
+        source: "/portfolio-2021",
+        category: ["all", "websites", "frontend"]
+      },
+      {
+        name: "BW Site",
+        title: "Blue Window",
+        description: "Squarespace website for a boutique hotel",
+        tools: "Squarespace, CSS",
+        preview: bwSitePreview,
+        overlay: bwSiteOverlay,
+        source: "/blue-window-website",
+        category: ["all", "websites", "squarespace"]
+      },
+      {
+        name: "ATD",
+        title: "ATD Ventures",
+        description: "Squarespace website for a construction + design firm",
+        tools: "Squarespace, CSS",
+        preview: atdPreview,
+        overlay: atdOverlay,
+        source: "/atd-ventures",
+        category: ["all", "websites", "squarespace"]
+      },
     ];
 
 

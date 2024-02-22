@@ -1,135 +1,49 @@
-import React, { useState, useEffect } from "react";
-import {  BrowserRouter,  Routes,  Route} from "react-router-dom";
-import "./App.css";
-import {portfolio} from './Projects';
+import React from "react";
+import { Routes,  Route } from "react-router-dom";
+import './App.css';
+import Splash from "./Splash";
+import Home from "./Home";
 
-import resume from './image/resume.png';
-import github from './image/github.png';
-import codepen from './image/codepen.png';
-import behance from './image/behance.png';
-import instagram from './image/instagram.png';
-import linkedin from './image/linkedin.png';
-import email from './image/email.png';
+import NeiHome from "./projects/NeiHome";
+import Devon from "./projects/Devon";
+import Perspective from "./projects/Perspective"
+import DiveDeeper from "./projects/DiveDeeper";
+import CodeStack from "./projects/CodeStack";
+import Linked from "./projects/Linked";
+import Mango from "./projects/Mango";
+import Portfolio21 from "./projects/Portfolio21";
+import Portfolio22 from "./projects/Portfolio22";
+import BlueWindowS from "./projects/BlueWindowS";
+import Sage from "./projects/Sage";
+import ATD from "./projects/ATD";
+import NeiTmip from "./projects/NeiTmip";
+import NeiEncore from "./projects/NeiEncore";
+import NeiMpp from "./projects/NeiMpp";
 
-function App() {
-  const [filter, setFilter] = useState("all");
-  const [projects, setProjects] = useState([]);
 
-  useEffect(() => {
-    setProjects(portfolio);
-  }, []);
-
-  useEffect(() => {
-    setProjects([]);
-
-    const filtered = portfolio.map(p => ({
-      ...p,
-      filtered: p.category.includes(filter)
-    }));
-    setProjects(filtered);
-  }, [filter]);
+export default function App() {
 
   return (
-    <>
-      <div className="header">
-        <div className="top">
-          <h1>Hi! <span>My name is</span> Camila</h1>
-          <p>I live in Los Angeles and primarily work as a frontend web developer. </p>
-        </div>
+      <Routes>
+        <Route path="/imcamila-2024" element={<Splash />} />
+        <Route path="/imcamila-2024/home" element={<Home />} />
 
-        <div className="links">
-          <ul>
-            <li>
-              <img src={resume}></img>
-              <a>Resume</a>
-            </li>
-            <li>
-              <hr></hr>
-            </li>
-            <li>
-              <img src={github}></img>
-              <a>Github</a>
-            </li>
-            <li>
-              <img src={codepen}></img>
-              <a>Codepen</a>
-            </li>
-            <li>
-              <img src={behance}></img>
-              <a>Behance</a>
-            </li>
-            <li>
-              <hr></hr>
-            </li>
-            <li>
-              <img src={instagram}></img>
-              <a>Instagram</a>
-            </li>
-            <li>
-              <img src={linkedin}></img>
-              <a>Linkedin</a>
-            </li>
-            <li>
-              <img src={email}></img>
-              <a>Email</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+        <Route path="/neuroscience-education-institute-home" element={<NeiHome />} />
+        <Route path="/neuroscience-education-institute-tmip" element={<NeiTmip />} />
+        <Route path="/neuroscience-education-institute-mpp" element={<NeiMpp />} />
+        <Route path="/neuroscience-education-institute-encore" element={<NeiEncore />} />
+        <Route path="/devon-donis" element={<Devon />} />
+        <Route path="/perspective" element={<Perspective />} />
+        <Route path="/dive-deeper" element={<DiveDeeper />} />
+        <Route path="/code-stack" element={<CodeStack />} />
+        <Route path="/linked" element={<Linked />} />
+        <Route path="/mango-mobile-development" element={<Mango />} />
+        <Route path="/portfolio-2021" element={<Portfolio21 />} />
+        <Route path="/portfolio-2022" element={<Portfolio22 />} />
+        <Route path="/blue-window-website" element={<BlueWindowS />} />
+        <Route path="/sage-social" element={<Sage />} />
+        <Route path="/atd-ventures" element={<ATD />} />
+      </Routes>
 
-      <div className="portfolio">
-        <div className="portfolio__labels">
-          <a href="/#" active={filter === "all"} onClick={() => setFilter("all")}>
-            All
-          </a>
-          <a
-            href="/#"
-            active={filter === "frontend"}
-            onClick={() => setFilter("frontend")}
-          >
-            Frontend
-          </a>
-          <a
-            href="/#"
-            active={filter === "mobile"}
-            onClick={() => setFilter("mobile")}
-          >
-            Mobile
-          </a>
-          <a
-            href="/#"
-            active={filter === "ux-ui"}
-            onClick={() => setFilter("ux-ui")}
-          >
-            UX/UI
-          </a>
-          <a
-            href="/#"
-            active={filter === "others"}
-            onClick={() => setFilter("others")}
-          >
-            Others
-          </a>
-        </div>
-
-        <div className="portfolio__container">
-          <ul>
-            {projects.map(item =>
-              item.filtered === true ? 
-              <li key={item.name} className='card'>
-                  <a className='card_path' href={item.source}>
-                    <h1>{item.title}</h1>
-                    <p>{item.description}</p>
-                    <img src={item.preview} />
-                    <span>{item.tools}</span>
-                  </a>
-              </li> : ""
-            )} 
-          </ul>
-        </div>        
-      </div>
-    </>
   );
 }
-
-export default App;
