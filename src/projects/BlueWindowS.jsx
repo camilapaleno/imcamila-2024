@@ -1,13 +1,14 @@
 import React from "react";
-import Frame from "../components/Frame.jsx";
+import Video from "../components/Video.jsx";
 
 function BlueWindowS() {
   return (
     <>
-      <Frame
+      <Video
         name='Blue Window Squarespace Website'
         description='A Squarespace website made for a boutique hotel in Junquillal.'
-        source='https://www.bluewindowcr.com/'
+        link='https://www.bluewindowcr.com/'
+        source='https://www.youtube.com/embed/DtYKBmj3kmo?si=nOvwLVOiTdXhS7hL&amp;controls=0'
       />
     </>
   );

@@ -1,14 +1,16 @@
 import React from "react";
-import Frame from "../components/Frame.jsx";
+import Video from "../components/Video"
 
 function Sage() {
   return (
     <>
-      <Frame
-        name='Sage Social Squarespace Website'
-        description='A Squarespace website made for a marketing agency in Los Angeles.'
-        source='https://www.sagesocial.co/'
+      <Video
+        name='Sage Social'
+        description='A website made for a social media marketing agency in Los Angeles.'
+        link='https://sagesocial.co'
+        source='https://www.youtube.com/embed/SBAL6_zoB7Y?si=Ct2cXKwZqlSswMAR&amp;controls=0'
       />
+
     </>
   );
 }

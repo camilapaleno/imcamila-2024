@@ -30,19 +30,21 @@ import sagePreview from "./image/preview-sagesocial2.png";
 import sageOverlay from "./image/preview-sagesocial-hover.gif";
 import atdPreview from "./image/preview-atd.png";
 import atdOverlay from "./image/preview-atd-hover.gif";
+import galcoPreview from "./image/preview-galco.jpg";
+
 
 
 export const portfolio = [
-    {
-      name: "Sage Social",
-      title: "Sage Social",
-      description: "Squarespace website for a marketing agency",
-      tools: "Squarespace, CSS",
-      preview: sagePreview,
-      overlay: sageOverlay,
-      source: "/sage-social",
-      category: ["all", "websites", "squarespace"]
-    },
+  {
+    name: "NEI Homepage",
+    title: "Neuroscience Education Institute",
+    description: "Company’s homepage",
+    tools: "HTML, CSS, Javascript",
+    preview: neiHomepagePreview,
+    overlay: neiHomepageOverlay,
+    source: "/neuroscience-education-institute-home",
+    category: ["all", "websites", "frontend"]
+  },
     {
       name: "BW Branding",
       title: "Blue Window",
@@ -50,7 +52,7 @@ export const portfolio = [
       tools: "Adobe Suite",
       preview: bwBrandPreview,
       overlay: overlay,
-      source: "#",
+      source: "/blue-window-branding",
       category: ["all", "branding"]
     },
     {
@@ -60,7 +62,7 @@ export const portfolio = [
       tools: "Blender 3d",
       preview: cozyKitchenPreview,
       overlay: cozyKitchenOverlay,
-      source: "#",
+      source: "/cozy-kitchen",
       category: ["all", "3d"]
     },
       {
@@ -84,28 +86,18 @@ export const portfolio = [
         category: ["all", "websites", "frontend"]
       },
       {
-        name: "NEI Homepage",
-        title: "Neuroscience Education Institute",
-        description: "Company’s homepage",
-        tools: "HTML, CSS, Javascript",
-        preview: neiHomepagePreview,
-        overlay: neiHomepageOverlay,
-        source: "/neuroscience-education-institute-home",
-        category: ["all", "websites", "frontend"]
-      },
-      {
         name: "Cozy Bedroom",
         title: "3d Cozy Bedroom",
         description: "Just for fun",
         tools: "Blender 3d",
         preview: cozyBedroomPreview,
         overlay: cozyBedroomOverlay,
-        source: "#",
+        source: "/cozy-bedroom",
         category: ["all", "3d"]
       },
       {
         name: "NEI MPP",
-        title: "Neuroscience Education Institute MPP",
+        title: "Neuroscience Education Institute",
         description: "Company’s Master Psychopharmacology Program",
         tools: "HTML, CSS, Javascript",
         preview: neiMPPPreview,
@@ -115,7 +107,7 @@ export const portfolio = [
       },
       {
         name: "NEI TMIP",
-        title: "Neuroscience Education Institute TMIP",
+        title: "Neuroscience Education Institute",
         description: "Company’s blog, This Month in Psychopharmacology",
         tools: "HTML, CSS, Javascript",
         preview: neiTMIPPreview,
@@ -125,7 +117,7 @@ export const portfolio = [
       },
       {
         name: "NEI Encore",
-        title: "Neuroscience Education Institute Encore",
+        title: "Neuroscience Education Institute",
         description: "Company’s conference video archive, Encores",
         tools: "HTML, CSS, Javascript",
         preview: neiEncorePreview,
@@ -152,7 +144,7 @@ export const portfolio = [
         preview: deeperPreview,
         overlay: deeperOverlay,
         source: "/dive-deeper",
-        category: ["all", "websites", "3d"]
+        category: ["all", "websites", "frontend", "3d"]
       },
       {
         name: "Code Stack",
@@ -162,7 +154,7 @@ export const portfolio = [
         preview: codestackPreview,
         overlay: codestackOverlay,
         source: "/code-stack",
-        category: ["all", "websites", "3d"]
+        category: ["all", "websites", "frontend", "3d"]
       },
       {
         name: "Linked",
@@ -172,18 +164,18 @@ export const portfolio = [
         preview: linkedPreview,
         overlay: linkedOverlay,
         source: "/linked",
-        category: ["all", "websites", "3d"]
+        category: ["all", "websites", "frontend", "3d"]
       },
-      // {
-      //   name: "Mango",
-      //   title: "Mango Mobile Development",
-      //   description: "3D website hero concept/mockup",
-      //   tools: "React.js, Spline 3D",
-      //   preview: mangoPreview,
-      //   overlay: overlay,
-      //   source: "/mango-mobile-development",
-      //   category: ["all", "websites", "frontend", "3d"]
-      // },
+      {
+        name: "Mango",
+        title: "Mango Mobile Development",
+        description: "3D website hero concept/mockup",
+        tools: "React.js, Spline 3D",
+        preview: mangoPreview,
+        overlay: overlay,
+        source: "/mango-mobile-development",
+        category: ["all", "websites", "frontend", "3d"]
+      },
       {
         name: "2023",
         title: "2023 Portfolio",
@@ -191,7 +183,7 @@ export const portfolio = [
         tools: "HTML, CSS, Javascript, Blender 3D",
         preview: gradientPreview,
         overlay: blenderOverlay,
-        source: "#",
+        source: "/portfolio-2023",
         category: ["all", "websites", "frontend", "3d"]
       },
       {
@@ -203,6 +195,16 @@ export const portfolio = [
         overlay: overlay,
         source: "/portfolio-2021",
         category: ["all", "websites", "frontend"]
+      },
+      {
+        name: "Sage Social",
+        title: "Sage Social",
+        description: "Squarespace website for a marketing agency",
+        tools: "Squarespace, CSS",
+        preview: sagePreview,
+        overlay: sageOverlay,
+        source: "/sage-social",
+        category: ["all", "websites", "squarespace"]
       },
       {
         name: "BW Site",
@@ -224,6 +226,36 @@ export const portfolio = [
         source: "/atd-ventures",
         category: ["all", "websites", "squarespace"]
       },
+      {
+        name: "Gal & Co",
+        title: "Gal & Co",
+        description: "Logo and Shopify website for a fashion boutique",
+        tools: "Adobe Suite",
+        preview: galcoPreview,
+        overlay: overlay,
+        source: "/gal-co",
+        category: ["all", "branding"]
+      },
+      // {
+      //   name: "Blue Window Photography",
+      //   title: "Blue Window Photography",
+      //   description: "Photography for a boutique hotel and café",
+      //   tools: "Nikon D750, Lightroom",
+      //   preview: galcoPreview,
+      //   overlay: overlay,
+      //   source: "/gal-co",
+      //   category: ["all", "photo"]
+      // },
+      // {
+      //   name: "Kickback Coldbrew Photography",
+      //   title: "Kickback Coldbrew Photography",
+      //   description: "Photography for a CDB coldbrew drink company",
+      //   tools: "Nikon D750, Lightroom",
+      //   preview: galcoPreview,
+      //   overlay: overlay,
+      //   source: "/kickback-coldbrew",
+      //   category: ["all", "photo"]
+      // },
     ];
 
 

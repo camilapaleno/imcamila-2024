@@ -13,6 +13,7 @@ import Linked from "./projects/Linked";
 import Mango from "./projects/Mango";
 import Portfolio21 from "./projects/Portfolio21";
 import Portfolio22 from "./projects/Portfolio22";
+import Portfolio23 from "./projects/Portfolio23";
 import BlueWindowS from "./projects/BlueWindowS";
 import Sage from "./projects/Sage";
 import ATD from "./projects/ATD";
@@ -20,13 +21,20 @@ import NeiTmip from "./projects/NeiTmip";
 import NeiEncore from "./projects/NeiEncore";
 import NeiMpp from "./projects/NeiMpp";
 
+import Kitchen from "./projects/Kitchen";
+import Bedroom from "./projects/Bedroom";
+import BlueWindowB from "./projects/BlueWindowB";
+import GalCo from "./projects/GalCo";
+
+import Kickback from "./projects/Kickback";
+
 
 export default function App() {
 
   return (
       <Routes>
-        <Route path="/imcamila-2024" element={<Splash />} />
-        <Route path="/imcamila-2024/home" element={<Home />} />
+        <Route path="/" element={<Splash />} />
+        <Route path="/home" element={<Home />} />
 
         <Route path="/neuroscience-education-institute-home" element={<NeiHome />} />
         <Route path="/neuroscience-education-institute-tmip" element={<NeiTmip />} />
@@ -40,9 +48,15 @@ export default function App() {
         <Route path="/mango-mobile-development" element={<Mango />} />
         <Route path="/portfolio-2021" element={<Portfolio21 />} />
         <Route path="/portfolio-2022" element={<Portfolio22 />} />
+        <Route path="/portfolio-2023" element={<Portfolio23 />} />
         <Route path="/blue-window-website" element={<BlueWindowS />} />
         <Route path="/sage-social" element={<Sage />} />
         <Route path="/atd-ventures" element={<ATD />} />
+        <Route path="/cozy-kitchen" element={<Kitchen />} />
+        <Route path="/cozy-bedroom" element={<Bedroom />} />
+        <Route path="/blue-window-branding" element={<BlueWindowB />} />
+        <Route path="/gal-co" element={<GalCo />} />
+        <Route path="/kickback-coldbrew" element={<Kickback />} />
       </Routes>
 
   );
