@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/imcamila-2024/static/css/main.b1b0d051.css",
-    "main.js": "/imcamila-2024/static/js/main.82be4260.js",
+    "main.js": "/imcamila-2024/static/js/main.c147ab13.js",
     "static/js/787.61c235a3.chunk.js": "/imcamila-2024/static/js/787.61c235a3.chunk.js",
     "static/media/kb-01.png": "/imcamila-2024/static/media/kb-01.b586d58c46eb233e8e51.png",
     "static/media/kb-18.jpg": "/imcamila-2024/static/media/kb-18.3b8724946b884db44839.jpg",
@@ -81,11 +81,11 @@
     "static/media/log.svg": "/imcamila-2024/static/media/log.f13492838426fe90cdca843d3b5a4a70.svg",
     "index.html": "/imcamila-2024/index.html",
     "main.b1b0d051.css.map": "/imcamila-2024/static/css/main.b1b0d051.css.map",
-    "main.82be4260.js.map": "/imcamila-2024/static/js/main.82be4260.js.map",
+    "main.c147ab13.js.map": "/imcamila-2024/static/js/main.c147ab13.js.map",
     "787.61c235a3.chunk.js.map": "/imcamila-2024/static/js/787.61c235a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1b0d051.css",
-    "static/js/main.82be4260.js"
+    "static/js/main.c147ab13.js"
   ]
 }
