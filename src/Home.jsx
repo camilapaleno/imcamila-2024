@@ -2,17 +2,8 @@ import React, { useState, useEffect } from "react";
 import {Link} from "react-router-dom";
 import "./App.css";
 import {portfolio} from './Projects';
+import resume from './image/camila_paleno-2023_resume.pdf';
 
-import logo from './image/log.svg';
-import resume from './image/resume.png';
-import github from './image/github.png';
-import codepen from './image/codepen.png';
-import behance from './image/behance.png';
-import instagram from './image/instagram.png';
-import linkedin from './image/linkedin.png';
-import email from './image/email.png';
-import lnk from './image/lnk.png';
-import downld from './image/downld.png';
 
 function Home() {
   const [filter, setFilter] = useState("all");
@@ -58,7 +49,7 @@ function Home() {
         <div className="links">
           <ul>
             <li>
-              <a href="#">resume
+              <a href={resume} target="_blank">resume
               <svg className="dwnld" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline class="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line class="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>

@@ -34,12 +34,12 @@ function Splash() {
               <img src={lnk}></img></Link>
             </li>
             <li>
-              <Link to={resume}>resume
-              <img src={downld}></img></Link>
+              <a href={resume} target="_blank">resume
+              <img src={downld}></img></a>
             </li>
             <li>
               
-              <a href="#">email
+              <a href="mailto:hi@imcamila.dev">email
               <img src={email}></img></a>
             </li>
           </ul>
