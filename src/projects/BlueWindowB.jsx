@@ -22,11 +22,11 @@ function BlueWindowB() {
         </div>
 
         <div className="gallery-wrapper">
-          <img src={bwb01}></img>
-          <img src={bwb02}></img>
-          <img src={bwb03}></img>
-          <img src={bwb04}></img>
-          <img src={bwb05}></img>
+          <img src={bwb01} alt="Blue Window Branding - Logo and social media for a boutique hotel in Junquillal, Costa Rica"></img>
+          <img src={bwb02} alt="Blue Window Branding - Logo and social media for a boutique hotel in Junquillal, Costa Rica"></img>
+          <img src={bwb03} alt="Blue Window Branding - Logo and social media for a boutique hotel in Junquillal, Costa Rica"></img>
+          <img src={bwb04} alt="Blue Window Branding - Logo and social media for a boutique hotel in Junquillal, Costa Rica"></img>
+          <img src={bwb05} alt="Blue Window Branding - Logo and social media for a boutique hotel in Junquillal, Costa Rica"></img>
 
         </div>
           

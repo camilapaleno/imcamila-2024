@@ -23,6 +23,7 @@ import NeiMpp from "./projects/NeiMpp";
 
 import Kitchen from "./projects/Kitchen";
 import Bedroom from "./projects/Bedroom";
+import Bathroom from "./projects/Bathroom";
 import BlueWindowB from "./projects/BlueWindowB";
 import GalCo from "./projects/GalCo";
 
@@ -54,6 +55,7 @@ export default function App() {
         <Route path="/atd-ventures" element={<ATD />} />
         <Route path="/cozy-kitchen" element={<Kitchen />} />
         <Route path="/cozy-bedroom" element={<Bedroom />} />
+        <Route path="/cozy-bathroom" element={<Bathroom />} />
         <Route path="/blue-window-branding" element={<BlueWindowB />} />
         <Route path="/gal-co" element={<GalCo />} />
         <Route path="/kickback-coldbrew" element={<Kickback />} />

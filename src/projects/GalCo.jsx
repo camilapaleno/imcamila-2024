@@ -21,11 +21,10 @@ function GalCo() {
         </div>
 
         <div className="gallery-wrapper">
-          <img src={gc01}></img>
-          <img src={gc02}></img>
-          <img src={gc03}></img>
-          <img src={gc04}></img>
-
+          <img src={gc01} alt="Gal & Co - Logo and website for a women's boutique in Los Angeles"></img>
+          <img src={gc02} alt="Gal & Co - Logo and website for a women's boutique in Los Angeles"></img>
+          <img src={gc03} alt="Gal & Co - Logo and website for a women's boutique in Los Angeles"></img>
+          <img src={gc04} alt="Gal & Co - Logo and website for a women's boutique in Los Angeles"></img>
         </div>
           
 

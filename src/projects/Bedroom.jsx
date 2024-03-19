@@ -1,5 +1,4 @@
 import React from "react";
-import test from "../image/preview-codestack.png"
 import cr01 from "../image/cr-01.JPG"
 import cr02 from "../image/cr-02.JPG"
 import cr03 from "../image/cr-03.PNG"
@@ -24,11 +23,11 @@ function Bedroom() {
         </div>
 
         <div className="gallery-wrapper">
-          <img src={cr01}></img>
-          <img src={cr02}></img>
-          <img src={cr03}></img>
-          <img src={cr04}></img>
-          <img src={cr05}></img>
+          <img src={cr01} alt="3D Blender Cycles - Cozy Bedroom"></img>
+          <img src={cr02} alt="3D Blender Cycles - Cozy Bedroom"></img>
+          <img src={cr03} alt="3D Blender Cycles - Cozy Bedroom"></img>
+          <img src={cr04} alt="3D Blender Cycles - Cozy Bedroom"></img>
+          <img src={cr05} alt="3D Blender Cycles - Cozy Bedroom"></img>
         </div>
           
 

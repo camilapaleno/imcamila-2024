@@ -1,7 +1,7 @@
 {
   "name": "imcamila-2024",
   "version": "0.1.0",
-  "homepage": "https://camilapaleno.github.io/imcamila-2024",
+  "homepage": "https://imcamila.dev",
   "private": true,
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.5.3",

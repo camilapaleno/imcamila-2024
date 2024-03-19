@@ -12,7 +12,8 @@ import cozyKitchenOverlay from "./image/preview-cozy_kitchen-hover.gif";
 import blenderOverlay from "./image/preview-blender-overlay.png";
 import cozyBedroomPreview from "./image/preview-cozy_bedroom.png";
 import cozyBedroomOverlay from "./image/preview-cozy_bedroom-hover.gif";
-import perspectivePreview from "./image/preview-perspective.png";
+import cozyBathroomPreview from "./image/cb-01.png";
+import cozyBathroomOverlay from "./image/preview-bathroom-hover.gif";
 import deeperPreview from "./image/preview-divedeeper.png";
 import deeperOverlay from "./image/preview-divedeeper-hover.gif";
 import codestackPreview from "./image/preview-codestack.png";
@@ -36,7 +37,7 @@ import galcoPreview from "./image/preview-galco.jpg";
 
 export const portfolio = [
   {
-    name: "NEI Homepage",
+    name: "Neuroscience Education Institute Homepage - Website UX UI Design with HTML CSS",
     title: "Neuroscience Education Institute",
     description: "Company’s homepage",
     tools: "HTML, CSS, Javascript",
@@ -46,7 +47,7 @@ export const portfolio = [
     category: ["all", "websites", "frontend"]
   },
     {
-      name: "BW Branding",
+      name: "Blue Window - Logo, branding, and social media feed for a boutique hotel",
       title: "Blue Window",
       description: "Logo, branding, and social media feed for a boutique hotel",
       tools: "Adobe Suite",
@@ -56,7 +57,7 @@ export const portfolio = [
       category: ["all", "branding"]
     },
     {
-      name: "Cozy Kitchen",
+      name: "Cozy Kitchen - Blender 3D Kitchen",
       title: "3D Cozy Kitchen",
       description: "Just for fun",
       tools: "Blender 3d",
@@ -65,18 +66,18 @@ export const portfolio = [
       source: "/cozy-kitchen",
       category: ["all", "3d"]
     },
+    {
+      name: "Devon Donis - Portfolio for a videographer & filmmaker in Los Angeles",
+      title: "Devon Donis",
+      description: "Portfolio for a videographer & filmmaker",
+      tools: "HTML, CSS",
+      preview: devonPreview,
+      overlay: devonOverlay,
+      source: "/devon-donis",
+      category: ["all", "websites", "frontend"]
+    },
       {
-        name: "Devon",
-        title: "Devon Donis",
-        description: "Portfolio for a videographer & filmmaker",
-        tools: "HTML, CSS",
-        preview: devonPreview,
-        overlay: devonOverlay,
-        source: "/devon-donis",
-        category: ["all", "websites", "frontend"]
-      },
-      {
-        name: "2022",
+        name: "2022 Web Design and Development Portfolio",
         title: "2022 Portfolio",
         description: "My 2022 portfolio featuring Lottie animations",
         tools: "HTML, CSS, Javascript, Lottie",
@@ -86,7 +87,17 @@ export const portfolio = [
         category: ["all", "websites", "frontend"]
       },
       {
-        name: "Cozy Bedroom",
+        name: "Cozy Bathroom - Blender 3D Kitchen",
+        title: "3D Cozy Kitchen",
+        description: "Just for fun",
+        tools: "Blender 3d",
+        preview: cozyBathroomPreview,
+        overlay: cozyBathroomOverlay,
+        source: "/cozy-bathroom",
+        category: ["all", "3d"]
+      },
+      {
+        name: "Cozy Bedroom - 3D Blender Cycles",
         title: "3d Cozy Bedroom",
         description: "Just for fun",
         tools: "Blender 3d",
@@ -96,7 +107,7 @@ export const portfolio = [
         category: ["all", "3d"]
       },
       {
-        name: "NEI MPP",
+        name: "Neuroscience Education Institute Master Psychopharmacology Program",
         title: "Neuroscience Education Institute",
         description: "Company’s Master Psychopharmacology Program",
         tools: "HTML, CSS, Javascript",
@@ -106,7 +117,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend"]
       },
       {
-        name: "NEI TMIP",
+        name: "Neuroscience Education Institute This Month in Psychopharmacology Blog",
         title: "Neuroscience Education Institute",
         description: "Company’s blog, This Month in Psychopharmacology",
         tools: "HTML, CSS, Javascript",
@@ -116,7 +127,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend"]
       },
       {
-        name: "NEI Encore",
+        name: "Neuroscience Education Institute Encore Video Archive",
         title: "Neuroscience Education Institute",
         description: "Company’s conference video archive, Encores",
         tools: "HTML, CSS, Javascript",
@@ -137,7 +148,7 @@ export const portfolio = [
       //   category: ["all", "websites", "frontend", "3d"]
       // },
       {
-        name: "Dive Deeper",
+        name: "Dive Deeper 3D Website Design Concept Mockup",
         title: "Dive Deeper",
         description: "3D website hero concept/mockup",
         tools: "React.js, Spline 3D",
@@ -147,7 +158,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend", "3d"]
       },
       {
-        name: "Code Stack",
+        name: "Code Stack 3D Website Design Concept Mockup",
         title: "Code Stack",
         description: "3D website hero concept/mockup",
         tools: "React.js, Spline 3D",
@@ -157,7 +168,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend", "3d"]
       },
       {
-        name: "Linked",
+        name: "Linked 3D Website Design Concept Mockup",
         title: "Linked",
         description: "3D website hero concept/mockup",
         tools: "React.js, Spline 3D",
@@ -167,7 +178,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend", "3d"]
       },
       {
-        name: "Mango",
+        name: "Mango 3D Website Design Concept Mockup",
         title: "Mango Mobile Development",
         description: "3D website hero concept/mockup",
         tools: "React.js, Spline 3D",
@@ -177,7 +188,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend", "3d"]
       },
       {
-        name: "2023",
+        name: "2023 Web Design and Development Portfolio",
         title: "2023 Portfolio",
         description: "My 2023 portfolio featuring my first Blender project",
         tools: "HTML, CSS, Javascript, Blender 3D",
@@ -187,7 +198,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend", "3d"]
       },
       {
-        name: "2021",
+        name: "2021 Web Design and Development Portfolio",
         title: "2021 Portfolio",
         description: "My 2021 portfolio made with React.js",
         tools: "React.js",
@@ -197,7 +208,7 @@ export const portfolio = [
         category: ["all", "websites", "frontend"]
       },
       {
-        name: "Sage Social",
+        name: "Sage Social Squarespace website for a marketing agency",
         title: "Sage Social",
         description: "Squarespace website for a marketing agency",
         tools: "Squarespace, CSS",
@@ -207,7 +218,7 @@ export const portfolio = [
         category: ["all", "websites", "squarespace"]
       },
       {
-        name: "BW Site",
+        name: "BW Site Squarespace website for a boutique hotel",
         title: "Blue Window",
         description: "Squarespace website for a boutique hotel",
         tools: "Squarespace, CSS",
@@ -217,7 +228,7 @@ export const portfolio = [
         category: ["all", "websites", "squarespace"]
       },
       {
-        name: "ATD",
+        name: "ATD Squarespace website for a construction + design firm",
         title: "ATD Ventures",
         description: "Squarespace website for a construction + design firm",
         tools: "Squarespace, CSS",
@@ -227,7 +238,7 @@ export const portfolio = [
         category: ["all", "websites", "squarespace"]
       },
       {
-        name: "Gal & Co",
+        name: "Gal & Co Logo and Shopify website for a fashion boutique",
         title: "Gal & Co",
         description: "Logo and Shopify website for a fashion boutique",
         tools: "Adobe Suite",

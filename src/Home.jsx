@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import {Link} from "react-router-dom";
 import "./App.css";
 import {portfolio} from './Projects';
-import resume from './image/camila_paleno-2023_resume.pdf';
+import resume from './image/camilapaleno_2024_resume.pdf';
 
 
 function Home() {
@@ -49,7 +49,7 @@ function Home() {
         <div className="links">
           <ul>
             <li>
-              <a href={resume} target="_blank">resume
+              <a href={resume}>resume
               <svg className="dwnld" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline class="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line class="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
@@ -57,7 +57,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="https://github.com/camilapaleno" target="_blank">github
+              <a href="https://github.com/camilapaleno" target="_blank" rel="noreferrer">github
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline class="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line class="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
@@ -65,7 +65,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/camilawebdev/" target="_blank">insta
+              <a href="https://www.instagram.com/camilawebdev/" target="_blank" rel="noreferrer">insta
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline class="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line class="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
@@ -73,7 +73,7 @@ function Home() {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/camilapaleno/" target="_blank">linkedin
+              <a href="https://www.linkedin.com/in/camilapaleno/" target="_blank" rel="noreferrer">linkedin
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 227.71 225.85">
                 <polyline class="st0" points="14.24,15.08 214.41,15.08 214.41,210.39 "/>  
                 <line class="st0" x1="14.24" y1="210.39" x2="214.41" y2="15.08"/>
@@ -100,51 +100,51 @@ function Home() {
           
         </div>
         <div className="portfolio__labels">
-          <a 
+          <button 
             active={filter === "all"} 
             onClick={() => setFilter("all")}
             className={filter === "all" ? 'selected-label' :'default-label'}
           >
             All
-          </a>
-          <a
+          </button>
+          <button
             active={filter === "websites"}
             onClick={() => setFilter("websites")}
             className={filter === "websites" ? 'selected-label' :'default-label'}
           >
             Websites
-          </a>
-          <a
+          </button>
+          <button
             active={filter === "frontend"}
             onClick={() => setFilter("frontend")}
             className={filter === "frontend" ? 'selected-label' :'default-label'}
           >
             Frontend Development
-          </a>
-          <a
+          </button>
+          <button
            
             active={filter === "3d"}
             onClick={() => setFilter("3d")}
             className={filter === "3d" ? 'selected-label' :'default-label'}
           >
             3D Modeling
-          </a>
-          <a
+          </button>
+          <button
             
             active={filter === "branding"}
             onClick={() => setFilter("branding")}
             className={filter === "branding" ? 'selected-label' :'default-label'}
           >
             Branding
-          </a>
-          <a
+          </button>
+          <button
             
             active={filter === "squarespace"}
             onClick={() => setFilter("squarespace")}
             className={filter === "squarespace" ? 'selected-label' :'default-label'}
           >
             Squarespace
-          </a>
+          </button>
         </div>
 
         <div className="portfolio__container">
@@ -156,8 +156,8 @@ function Home() {
                     <h1>{item.title}</h1>
                     <p>{item.description}</p>
                     <div className="card_preview">
-                      <img src={item.preview} />
-                      <img src={item.overlay} />
+                      <img src={item.preview} alt={item.name} />
+                      <img src={item.overlay} alt={item.name} />
                     </div>
                     
                     <span>{item.tools}</span>

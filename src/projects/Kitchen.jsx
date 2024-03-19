@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import test from "../image/preview-codestack.png"
 import ck01 from "../image/ck-01.png"
 import ck02 from "../image/ck-02.png"
 import ck03 from "../image/ck-03.png"
@@ -27,13 +26,13 @@ function Kitchen() {
           </div>
 
         <div className="gallery-wrapper">
-          <img src={ck01}></img>
-          <img src={ck02}></img>
-          <img src={ck03}></img>
-          <img src={ck04}></img>
-          <img src={ck05}></img>
-          <img src={ck06}></img>
-          <img src={ck07}></img>
+          <img src={ck01} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck02} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck03} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck04} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck05} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck06} alt="Blender 3D Cycles Cozy Kitchen"></img>
+          <img src={ck07} alt="Blender 3D Cycles Cozy Kitchen"></img>
         </div>
           
 

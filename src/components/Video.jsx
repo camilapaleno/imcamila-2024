@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {Link} from "react-router-dom";
 
 function Video(prop) {
@@ -14,7 +14,7 @@ function Video(prop) {
           <div className="info">
             <h1>{prop.name}</h1>
             <p>{prop.description}</p>
-            <a className="see-full-site" href={prop.link} target="_blank">See full site</a>
+            <a className="see-full-site" href={prop.link} target="_blank" rel="noreferrer">See full site</a>
           </div>
         </div>
 

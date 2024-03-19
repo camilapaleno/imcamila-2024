@@ -157,7 +157,6 @@ body {
 }
 
 
-
 .splash {
 background: rgb(254,162,10);
 background: linear-gradient(
@@ -175,6 +174,8 @@ background: linear-gradient(
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  padding: 50px
 }
 
 .splash-lottie {
@@ -287,26 +288,25 @@ background: linear-gradient(
   padding: 40px 40px 0px 40px; 
 }
 
-.portfolio__labels a {
+.portfolio__labels button {
   font-size: 12px;
   padding: 0px 3px;
   line-height: 40%;
   border: 1px solid transparent;
-  border-radius: 3px;
   color: var(--text);
   text-decoration: none;
   margin-right: 10px;
 }
 
-.portfolio__labels a.default-label{
+.portfolio__labels button.default-label{
   background-color: transparent;
 }
 
-.portfolio__labels a:hover{
+.portfolio__labels button:hover{
   background-color: #ffeec5;
 }
 
-.portfolio__labels a.selected-label{
+.portfolio__labels button.selected-label{
   background-color: #f7ccbb;
 }
 
@@ -319,7 +319,7 @@ background: linear-gradient(
     justify-content: center;
   }
 
-  .portfolio__labels a{
+  .portfolio__labels button{
     margin-bottom: 10px;
   }
 
@@ -431,6 +431,9 @@ background: linear-gradient(
 }
 
 @media (max-width: 640px) {
+  .portfolio__container {
+    padding: 20px;
+  }
   .portfolio__container ul li{
     width: 99%;
   }

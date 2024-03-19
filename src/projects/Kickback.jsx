@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import kb01 from "../image/kb-01.png"
+
 import kb02 from "../image/kb-02.png"
 import kb03 from "../image/kb-03.jpg"
 
@@ -17,8 +17,7 @@ import kb14 from "../image/kb-14.jpg"
 import kb15 from "../image/kb-15.jpg"
 import kb16 from "../image/kb-16.jpg"
 import kb17 from "../image/kb-17.jpg"
-import kb18 from "../image/kb-18.jpg"
-import kb19 from "../image/kb-19.jpg"
+
 
 
 function Kickback() {
@@ -37,28 +36,28 @@ function Kickback() {
         </div>
 
         <div className="photo-wrapper">
-        <img src={kb16}></img>
+        <img src={kb16} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
         
-        <img src={kb13}></img>
-        <img src={kb10}></img>
-          <img src={kb14}></img>
+        <img src={kb13} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+        <img src={kb10} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb14} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
           
-          <img src={kb05}></img>
-          <img src={kb03}></img>
-          <img src={kb02}></img>
+          <img src={kb05} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb03} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb02} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
           
 
           
-          <img src={kb06}></img>
-          <img src={kb07}></img>
-          <img src={kb17}></img>
-          <img src={kb08}></img>
-          <img src={kb09}></img>
+          <img src={kb06} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb07} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb17} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb08} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb09} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
           
-          <img src={kb11}></img>
-          <img src={kb12}></img>
+          <img src={kb11} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
+          <img src={kb12} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
           
-          <img src={kb15}></img>
+          <img src={kb15} alt="Kickback Photography - Photography for a CBD coldbrew company"></img>
           
 
 
